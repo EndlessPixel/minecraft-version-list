@@ -258,7 +258,18 @@ const descriptionModal = document.getElementById('description-modal');
 
 function openDownloadModal(v) { 
     document.getElementById('modal-body').innerHTML = v.downloads 
-        ? Object.values(v.downloads).map(u=>`<a href="${u}" target="_blank" class="download-link">下载链接</a>`).join('') 
+        ? Object.entries(v.downloads).map(([key, url]) => {
+            // 自动把 key 翻译成中文名称
+            const nameMap = {
+                client: "客户端",
+                server: "服务端",
+                json: "JSON文件",
+                wiki: "Wiki 页面",
+                minecraft: "官方文章"
+            };
+            const name = nameMap[key] || key;
+            return `<a href="${url}" target="_blank" class="download-link">${name}</a>`;
+        }).join('') 
         : "无链接"; 
     downloadModal.classList.add('active'); 
 }
