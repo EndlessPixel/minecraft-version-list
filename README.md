@@ -88,4 +88,8 @@ let pageSize = 50;    // 默认每页条数
 
 ## 📜 版权说明
 © 2024~2026 EndlessPixel Studio
-本项目大部分内容复制于Minecraft Wiki，仅供学习交流使用。
+
+## 授权说明
+- 前端源代码（HTML/CSS/JS）：[MIT License](sslocal://flow/file_open?url=LICENSE-MIT&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
+- 所有版本描述、资料文案、Wiki 摘录内容：[CC BY-NC-SA 4.0](sslocal://flow/file_open?url=LICENSE-CC-BY-NC-SA-4.0&flow_extra=eyJsaW5rX3R5cGUiOiJjb2RlX2ludGVycHJldGVyIn0=)
+- 本项目非官方，与 Mojang / Microsoft 无关联，引用资料请标注出处。
