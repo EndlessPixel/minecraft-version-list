@@ -1,0 +1,788 @@
+/* ---------- CSS 变量：主题配置 ---------- */
+:root {
+  /* 主色调 - 现代蓝紫色系 */
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --primary-light: #818cf8;
+  --primary-glow: rgba(99, 102, 241, 0.25);
+  
+  /* 中性色 - 浅色模式 */
+  --bg-page: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-surface-soft: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border-light: #e2e8f0;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 暗色模式自动适配 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-page: #0f172a;
+    --bg-surface: #1e293b;
+    --bg-surface-soft: #334155;
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --border-light: #334155;
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    --primary-glow: rgba(99, 102, 241, 0.35);
+  }
+}
+
+/* ---------- 全局重置与基础 ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 优雅滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-surface-soft);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* ---------- 头部区域：渐变玻璃效果 ---------- */
+header {
+  background: linear-gradient(135deg, #1e1b4b 0%, #2d3a6e 50%, #1e2a5e 100%);
+  color: white;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(2px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* 动态光晕 */
+header::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+  pointer-events: none;
+  animation: shimmer 12s infinite linear;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-30%) translateY(-30%) rotate(0deg); opacity: 0.5; }
+  100% { transform: translateX(30%) translateY(30%) rotate(10deg); opacity: 0.8; }
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #fff, #c7d2fe);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 2;
+}
+
+/* 搜索容器 - 玻璃态卡片 */
+.search-container {
+  max-width: 560px;
+  margin: 1.5rem auto 0;
+  display: flex;
+  gap: 0.75rem;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem;
+  border-radius: 60px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.search-container input {
+  flex: 1;
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 60px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--text-primary);
+  transition: var(--transition);
+  outline: none;
+  font-weight: 500;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.search-container input:focus {
+  background: white;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3), inset 0 1px 2px rgba(0,0,0,0.05);
+  transform: scale(1.01);
+}
+
+.search-container button {
+  padding: 0.9rem 2rem;
+  background: linear-gradient(105deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: white;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.3);
+}
+
+.search-container button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.4);
+  filter: brightness(1.05);
+}
+
+/* ---------- 筛选区域 ---------- */
+.filter-container {
+  max-width: 1280px;
+  margin: 2rem auto 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.filter-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+  display: inline-block;
+  background: linear-gradient(120deg, var(--primary), var(--primary-light));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  padding: 0.5rem 1.25rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: 40px;
+  cursor: pointer;
+  transition: var(--transition);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  backdrop-filter: blur(4px);
+  box-shadow: var(--shadow-sm);
+}
+
+.tag:hover {
+  background: var(--primary-glow);
+  border-color: var(--primary-light);
+  color: var(--primary);
+  transform: translateY(-1px);
+}
+
+.tag.active {
+  background: linear-gradient(115deg, var(--primary), var(--primary-dark));
+  border-color: transparent;
+  color: white;
+  box-shadow: 0 4px 12px var(--primary-glow);
+}
+
+/* ---------- 主内容区 ---------- */
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* 表格容器 - 精致卡片效果 */
+.versions-container {
+  background: var(--bg-surface);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  overflow-x: auto;
+  margin: 1rem 0;
+  transition: var(--transition);
+  border: 1px solid var(--border-light);
+}
+
+/* 表格样式重构 */
+.versions-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.9rem;
+}
+
+.versions-table th,
+.versions-table td {
+  padding: 1.25rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.versions-table th {
+  background: var(--bg-surface-soft);
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--border-light);
+}
+
+.versions-table th:first-child {
+  border-top-left-radius: var(--radius-xl);
+}
+.versions-table th:last-child {
+  border-top-right-radius: var(--radius-xl);
+}
+
+.versions-table tr {
+  transition: var(--transition);
+}
+
+.versions-table tr:hover {
+  background: var(--bg-surface-soft);
+  transform: scale(1.002);
+}
+
+.versions-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* 版本标签组 */
+.version-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.version-tag {
+  padding: 0.2rem 0.75rem;
+  background: var(--bg-surface-soft);
+  border-radius: 40px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: var(--transition);
+  border: 1px solid var(--border-light);
+}
+
+.version-tag:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+/* 描述容器 */
+.description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.truncated-description {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: var(--text-secondary);
+}
+
+.description-btn {
+  align-self: flex-start;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+/* 下载链接 - 现代按钮组 */
+.download-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: var(--transition);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+}
+
+.download-link:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* 空状态美化 */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: var(--bg-surface);
+  border-radius: var(--radius-xl);
+  margin: 2rem 0;
+  color: var(--text-muted);
+  font-style: normal;
+  font-size: 1.1rem;
+  border: 1px dashed var(--border-light);
+  backdrop-filter: blur(4px);
+}
+
+.empty-state::before {
+  content: "📦";
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+/* ---------- 页脚 ---------- */
+footer {
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid var(--border-light);
+  font-size: 0.85rem;
+  backdrop-filter: blur(8px);
+}
+
+/* ---------- 响应式极致优化 ---------- */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  .search-container {
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    padding: 1rem;
+    gap: 0.8rem;
+  }
+  
+  .search-container input,
+  .search-container button {
+    border-radius: 40px;
+    width: 100%;
+  }
+  
+  /* 移动端表格转为块级滚动，确保体验 */
+  .versions-container {
+    border-radius: var(--radius-lg);
+  }
+  
+  .versions-table th,
+  .versions-table td {
+    padding: 0.9rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .tag {
+    padding: 0.4rem 1rem;
+    font-size: 0.75rem;
+  }
+  
+  .download-link {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.7rem;
+  }
+  
+  .filter-container h2 {
+    font-size: 1.1rem;
+  }
+}
+
+/* 超大屏优化 */
+@media (min-width: 1600px) {
+  main, .filter-container {
+    max-width: 1440px;
+  }
+}
+
+/* 分页控件 */
+.pagination-container {
+  max-width: 1280px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-surface);
+  padding: 1rem 1.5rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--border-light);
+}
+
+.page-size-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.page-size-selector label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.page-size-selector select {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.page-size-selector select:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+
+.pagination-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pagination-btn:hover:not(:disabled) {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.pagination-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#page-info {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  min-width: 120px;
+  text-align: center;
+}
+
+/* 响应式分页 */
+@media (max-width: 768px) {
+  .pagination-controls {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+  
+  .page-size-selector {
+    justify-content: center;
+  }
+  
+  .pagination-buttons {
+    justify-content: center;
+  }
+}
+
+/* 添加渐入动画，让表格行优雅显示 */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.versions-table tbody tr {
+  animation: fadeSlideUp 0.3s ease-out forwards;
+}
+
+/* 下载按钮加图标占位符 (仅装饰,不影响功能) */
+.download-link::before {
+  content: "♥";
+  font-size: 0.75rem;
+  transition: var(--transition);
+  opacity: 0.8;
+}
+
+.download-link:hover::before {
+  transform: translateY(2px);
+}
+
+/* 活动标签点击波纹效果 */
+.tag {
+  position: relative;
+  overflow: hidden;
+}
+
+.tag::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 80%);
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.3s;
+  pointer-events: none;
+}
+
+.tag:active::after {
+  transform: translate(-50%, -50%) scale(2);
+  opacity: 1;
+  transition: 0s;
+}
+
+/* ---------- 下载链接弹窗 ---------- */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  transition: var(--transition);
+}
+
+.modal.active {
+  display: block;
+  animation: modal-fade-in 0.3s ease;
+}
+
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  background: var(--bg-surface);
+  margin: 15% auto;
+  padding: 2rem;
+  border-radius: var(--radius-xl);
+  width: 90%;
+  max-width: 500px;
+  box-shadow: var(--shadow-xl);
+  border: 1px solid var(--border-light);
+  animation: modal-slide-in 0.3s ease;
+  backdrop-filter: blur(8px);
+}
+
+@keyframes modal-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.modal-header h3 {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: var(--transition);
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.close-btn:hover {
+  color: var(--text-primary);
+  background: var(--bg-surface-soft);
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-body .download-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: var(--radius-lg);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.modal-body .download-link:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+/* 弹窗内链接间距优化 */
+.modal-body .download-link {
+  margin-bottom: 0.5rem;
+}
+.modal-body .download-link:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- 表格内按钮：详情 + 查看（完美适配你的主题） ---------- */
+.description-btn,
+.download-btn {
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+  box-shadow: var(--shadow-sm);
+}
+
+/* 详情按钮（灰色系） */
+.description-btn {
+  background: var(--bg-surface-soft);
+  color: var(--text-secondary);
+}
+.description-btn:hover {
+  background: var(--text-muted);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* 查看按钮（使用你的主题主色调） */
+.download-btn {
+  background: var(--primary);
+  color: #fff;
+}
+.download-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+/* 让按钮在表格里不挤、更美观 */
+.versions-table td button {
+  margin-left: 0.4rem;
+  white-space: nowrap;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft 版本列表</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minecraft 版本列表</h1>
+    </header>
+    <div class="search-container">
+            <input type="text" id="search-input" placeholder="搜索版本名称或描述...">
+            <button id="search-button">搜索</button>
+    </div>
+    <div class="filter-container">
+        <h2>标签筛选</h2>
+        <div id="tags-container" class="tags-container"></div>
+    </div>
+        <!-- 分页控件（上方） -->
+    <div class="pagination-container" id="pagination-top">
+        <div class="pagination-controls">
+            <div class="page-size-selector">
+                <label for="page-size">每页显示：</label>
+                <select id="page-size">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="10">15</option>
+                    <option value="20">20</option>
+                    <option value="10">25</option>
+                    <option value="50" selected>50</option>
+                    <option value="75">75</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="500">500</option>
+                </select>
+            </div>
+            <div class="pagination-buttons">
+                <button class="prev-page pagination-btn" disabled>上一页</button>
+                <span class="page-info">第 1 页，共 1 页</span>
+                <button class="next-page pagination-btn" disabled>下一页</button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <table id="versions-container" class="versions-table">
+            <thead>
+                <tr>
+                    <th>版本名称</th>
+                    <th>发布日期</th>
+                    <th>简介</th>
+                    <th>标签</th>
+                    <th>相关链接</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    
+    <!-- 分页控件（下方） -->
+    <div class="pagination-container" id="pagination-bottom">
+        <div class="pagination-controls">
+            <div class="page-size-selector">
+                <label for="page-size-bottom">每页显示：</label>
+                <select id="page-size-bottom">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="10">15</option>
+                    <option value="20">20</option>
+                    <option value="10">25</option>
+                    <option value="50">50</option>
+                    <option value="75">75</option>
+                    <option value="100">100</option>
+                    <option value="200">200</option>
+                    <option value="500">500</option>
+                </select>
+            </div>
+            <div class="pagination-buttons">
+                <button class="prev-page pagination-btn" disabled>上一页</button>
+                <span class="page-info">第 1 页，共 1 页</span>
+                <button class="next-page pagination-btn" disabled>下一页</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 下载链接弹窗 -->
+    <div id="download-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">相关链接</h3>
+                <button id="close-modal" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- 下载链接将在这里动态生成 -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- 描述弹窗 -->
+    <div id="description-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="description-modal-title">版本描述</h3>
+                <button id="close-description-modal" class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body" id="description-modal-body">
+                <!-- 描述内容将在这里动态生成 -->
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2024~2026 EndlessPixel Studio</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
