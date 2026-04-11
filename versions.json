@@ -1,5 +1,61 @@
 [
     {
+        "name": "26.2-snapshot-2",
+        "date": "2026年4月9日",
+        "tags": [
+            "快照版"
+        ],
+        "description": "26.2-snapshot-2是Java版26.2的第2个快照，发布于2026年4月9日，修复了一些漏洞。",
+        "downloads": {
+            "client": "https://piston-data.mojang.com/v1/objects/9578fe329bdf486d5f99896749a5f85c94d93b6a/client.jar",
+            "json": "https://piston-meta.mojang.com/v1/packages/1d134658cc380817ca1d3eaab4caa2825415a17e/26.2-snapshot-2.json",
+            "server": "https://piston-data.mojang.com/v1/objects/e6cefea7bf62cb0cc044794d7ebfe8ea5ee672a3/server.jar",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8826.2-snapshot-2"
+        }
+    },
+    {
+        "name": "26.2-snapshot-1",
+        "date": "2026年4月7日",
+        "tags": [
+            "快照版"
+        ],
+        "description": "26.2-snapshot-1是Java版26.2的首个快照，发布于2026年4月7日，加入了混沌立方的首批特性，新增了对Vulkan渲染的支持，并修复了一些漏洞。",
+        "downloads": {
+            "client": "https://piston-data.mojang.com/v1/objects/9bbe51129f60dd895f2a143c3eacc22ca148ba81/client.jar",
+            "json": "https://piston-meta.mojang.com/v1/packages/7ab97a5e798295de87e72c0fcbfc1f6e83f54dfc/26.2-snapshot-1.json",
+            "server": "https://piston-data.mojang.com/v1/objects/3a540367d1b89155e253556ac855031da4ba090a/server.jar",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8826.2-snapshot-1"
+        }
+    },
+    {
+        "name": "26.1.2",
+        "date": "2026年4月8日",
+        "tags": [
+            "正式版"
+        ],
+        "description": "26.1.2是Java版的一次热修复更新，发布于2026年4月8日，修复了一些严重漏洞。此版本兼容26.1和26.1.1的服务端。",
+        "downloads": {
+            "client": "https://piston-data.mojang.com/v1/objects/4e618f09a0c649dde3fdf829df443ce0b8831e65/client.jar",
+            "json": "https://piston-meta.mojang.com/v1/packages/dd6fd47eec3ac2d46b4f805e003f1a421ed8a3f7/26.1.2.json",
+            "server": "https://piston-data.mojang.com/v1/objects/97ccd4c0ed3f81bbb7bfacddd1090b0c56f9bc51/server.jar",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8826.1.2"
+        }
+    },
+    {
+        "name": "26.1.2-rc-1",
+        "date": "2026年4月8日",
+        "tags": [
+            "发布候选版"
+        ],
+        "description": "26.1.2-rc-1是Java版26.1.2的唯一一个发布候选版本，发布于2026年4月8日，修复了一些严重漏洞。",
+        "downloads":{
+            "client": "https://piston-data.mojang.com/v1/objects/fd223c7acd6bef1dfa2003f7a3b92a75ea9855c8/client.jar",
+            "json": "https://piston-meta.mojang.com/v1/packages/d074b394e22ede605a57290fbd41e5ce2e56b0d1/26.1.2-rc-1.json",
+            "server": "https://piston-data.mojang.com/v1/objects/fe4d20eceabf011b9e29c565db82d0ba0f3289ca/server.jar",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8826.1.2-rc-1"
+        }
+    },
+    {
         "name": "26w14a",
         "date": "2026年4月1日",
         "tags": [
