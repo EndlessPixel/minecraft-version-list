@@ -1,5 +1,19 @@
 [
     {
+        "name": "26.2-snapshot-3",
+        "date": "2026年4月14日",
+        "tags": [
+            "快照版"
+        ],
+        "description": "26.2-snapshot-3是Java版26.2的第3个快照，发布于2026年4月14日，加入了硫黄尖锥，并修复了一些漏洞。",
+        "downloads": {
+            "client": "https://piston-data.mojang.com/v1/objects/b2fc8a4c04fc5984fe408aba387e316a8784d79b/client.jar",
+            "json": "https://piston-meta.mojang.com/v1/packages/f8ce00355c7535323ad546f1f702e3aaaa48a99a/26.2-snapshot-3.json",
+            "server": "https://piston-data.mojang.com/v1/objects/5f2e44493daf3cd4ab757e59921313c9c8d95151/server.jar",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8826.2-snapshot-3"
+        }
+    },
+    {
         "name": "26.2-snapshot-2",
         "date": "2026年4月9日",
         "tags": [
@@ -430,7 +444,7 @@
         ],
         "description": "Java版1.21.11第六个（最终）快照版，修复漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w46a",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w46a",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-25w46a.json"
         }
     },
@@ -442,7 +456,7 @@
         ],
         "description": "Java版1.21.11第五个快照版，新增下界合金马铠、珊瑚僵尸鹦鹉螺，修复漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w45a",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w45a",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-25w45a.json"
         }
     },
@@ -454,7 +468,7 @@
         ],
         "description": "Java版1.21.11第四个快照版，新增焦骸、骆驼尸壳，修复漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w44a",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w44a",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-25w44a.json"
         }
     },
@@ -466,7 +480,7 @@
         ],
         "description": "Java版1.21.11第三个快照版，仅修复漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w43a",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w43a",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-25w43a.json"
         }
     },
@@ -478,7 +492,7 @@
         ],
         "description": "Java版1.21.11第二个快照版，加入环境属性系统，修复漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w42a",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w42a",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-25w42a.json"
         }
     },
@@ -490,7 +504,7 @@
         ],
         "description": "Java版1.21.11首个快照版，新增鹦鹉螺、僵尸鹦鹉螺、鹦鹉螺铠、矛、突进魔咒，允许僵尸马自然生成，修复漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w41a",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w41a",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-25w41a.json"
         }
     },
@@ -502,7 +516,7 @@
         ],
         "description": "1.21.10是Java版的一次热修复更新，发布于2025年10月7日，修复了7个漏洞。此版本不兼容1.21到1.21.8的服务端，兼容1.21.9的服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.10",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.10",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-1.21.10.json"
         }
     },
@@ -514,7 +528,7 @@
         ],
         "description": "1.21.10-rc1是Java版1.21.10的唯一一个发布候选版本，发布于2025年10月2日，修复了7个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.10-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.10-rc1"
         }
     },
     {
@@ -528,7 +542,7 @@
             "jar": "https://piston-data.mojang.com/v1/objects/ce92fd8d1b2460c41ceda07ae7b3fe863a80d045/client.jar",
             "meta": "https://piston-meta.mojang.com/v1/packages/5ec1a8f499396c99b4971eb05658fbcf1545e5d0/1.21.9.json",
             "server": "https://piston-data.mojang.com/v1/objects/11e54c2081420a4d49db3007e66c80a22579ff2a/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.9"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.9"
         }
     },
     {
@@ -539,7 +553,7 @@
         ],
         "description": "Java版1.21.9唯一发布候选版，修复嘎枝无视游戏规则生成、潮涌核心纹理颠倒等漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.9-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.9-rc1"
         }
     },
     {
@@ -550,7 +564,7 @@
         ],
         "description": "Java版1.21.9第四个预发布版，调试屏幕快捷键改为F3+F6，修复调试屏幕、服务端协议、潮涌核心动画、盾牌附魔光效等7个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.9-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.9-pre4"
         }
     },
     {
@@ -561,7 +575,7 @@
         ],
         "description": "Java版1.21.9第三个预发布版，修复铜傀儡检查箱子导致卡顿、铜傀儡像顶面不可见等2个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.9-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.9-pre3"
         }
     },
     {
@@ -572,7 +586,7 @@
         ],
         "description": "Java版1.21.9第二个预发布版，铜傀儡氧化改为使用游戏时间，修复卡顿、声音崩溃、玩家模型姿势等11个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.9-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.9-pre2"
         }
     },
     {
@@ -583,7 +597,7 @@
         ],
         "description": "Java版1.21.9首个预发布版，玩家模型新增姿势与字段，调整铜傀儡行为，修复铜傀儡寻路、跨维度传送等28个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.9-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.9-pre1"
         }
     },
     {
@@ -594,7 +608,7 @@
         ],
         "description": "Java版1.21.9最后一个快照版，OpenGL要求提升至3.3，开放调试工具，调整铜傀儡判定箱与开门能力，修复41个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w37a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w37a"
         }
     },
     {
@@ -605,7 +619,7 @@
         ],
         "description": "Java版1.21.9第八个快照版，紧急修复末影箱附近、玩家附近导致客户端崩溃的2个严重漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w36b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w36b"
         }
     },
     {
@@ -616,7 +630,7 @@
         ],
         "description": "Java版1.21.9第七个快照版，加入玩家模型实体，优化粒子渲染，调整维度独立世界边界，修复59个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w36a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w36a"
         }
     },
     {
@@ -627,7 +641,7 @@
         ],
         "description": "Java版1.21.9第六个快照版，新增pvp等游戏规则、服务器管理协议，优化铜傀儡与展示架，修复47个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w35a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w35a"
         }
     },
     {
@@ -638,7 +652,7 @@
         ],
         "description": "Java版1.21.9第五个快照版，修复发光展示实体不发光、Realms相关漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w34b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w34b"
         }
     },
     {
@@ -649,7 +663,7 @@
         ],
         "description": "Java版1.21.9第四个快照版，新增/fetchprofile命令、服务器行为准则，优化铜傀儡与末地闪光，修复53个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w34a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w34a"
         }
     },
     {
@@ -660,7 +674,7 @@
         ],
         "description": "Java版1.21.9第三个快照版，加入末地闪光、聊天草稿，铁傀儡可赠予虞美人给铜傀儡，修复28个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w33a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w33a"
         }
     },
     {
@@ -671,7 +685,7 @@
         ],
         "description": "Java版1.21.9第二个快照版，加入铜火把、铜栏杆、铜链、铜灯笼，调整铜傀儡与展示架，修复50个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w32a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w32a"
         }
     },
     {
@@ -682,7 +696,7 @@
         ],
         "description": "Java版1.21.9首个快照版，加入铜箱子、铜傀儡、铜盔甲、铜工具、展示架，优化调试屏幕与按键设置，修复52个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w31a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w31a"
         }
     },
     {
@@ -693,7 +707,7 @@
         ],
         "description": "Java版1.21.8热修复版，修复了8个漏洞。此版本不兼容1.21到1.21.6的服务端，兼容1.21.7的服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.8"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.8"
         }
     },
     {
@@ -704,7 +718,7 @@
         ],
         "description": "Java版1.21.8的唯一一个发布候选版本，发布于2025年7月15日，修复了8个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.8-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.8-rc1"
         }
     },
     {
@@ -715,7 +729,7 @@
         ],
         "description": "Java版1.21.7热修复版，修复了16个漏洞。此版本不兼容1.21到1.21.6的服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.7"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.7"
         }
     },
     {
@@ -726,7 +740,7 @@
         ],
         "description": "1.21.7-rc2是Java版1.21.7的第2个，也是最后一个发布候选版本，发布于2025年6月26日，修复了4个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.7-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.7-rc2"
         }
     },
     {
@@ -737,7 +751,7 @@
         ],
         "description": "1.21.7-rc1是Java版1.21.7的首个发布候选版本，发布于2025年6月25日，加入了出自A Minecraft Movie的画和音乐唱片，并修复了13个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.7-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.7-rc1"
         }
     },
     {
@@ -751,7 +765,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/740a125b83dd3447feaa3c5e891ead7fbb21ae28/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/ac29333211286b32d68ca4a16d2026a834ac1430/1.21.6.json",
             "server": "https://piston-data.mojang.com/v1/objects/6e64dcabba3c01a7271b4fa6bd898483b794c59b/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.6"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.6"
         }
     },
     {
@@ -762,7 +776,7 @@
         ],
         "description": "1.21.6-rc1是Java版1.21.6的唯一一个发布候选版本，发布于2025年6月12日，修复了3个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.6-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.6-rc1"
         }
     },
     {
@@ -773,7 +787,7 @@
         ],
         "description": "1.21.6-pre4是Java版1.21.6的第4个，也是最后一个预发布版，发布于2025年6月10日，修复了4个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.6-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.6-pre4"
         }
     },
     {
@@ -784,7 +798,7 @@
         ],
         "description": "1.21.6-pre3是Java版1.21.6的第3个预发布版，发布于2025年6月4日，修复了12个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.6-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.6-pre3"
         }
     },
     {
@@ -795,7 +809,7 @@
         ],
         "description": "1.21.6-pre2是Java版1.21.6的第2个预发布版，发布于2025年6月2日，修复了14个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.6-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.6-pre2"
         }
     },
     {
@@ -806,7 +820,7 @@
         ],
         "description": "1.21.6-pre1是Java版1.21.6的首个预发布版，发布于2025年5月28日，修复了26个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.6-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.6-pre1"
         }
     },
     {
@@ -817,7 +831,7 @@
         ],
         "description": "25w21a是Java版1.21.6的第7个快照版，发布于2025年5月20日，加入了一些新音效，并修复了22个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w21a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w21a"
         }
     },
     {
@@ -828,7 +842,7 @@
         ],
         "description": "25w20a是Java版1.21.6的第6个快照版，发布于2025年5月13日，加入了鞍的合成配方、新的音乐曲目和新的音乐唱片，更新了全景图，并修复了15个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w20a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w20a"
         }
     },
     {
@@ -839,7 +853,7 @@
         ],
         "description": "25w19a是Java版1.21.6的第5个快照版，发布于2025年5月6日，修复了20个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w19a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w19a"
         }
     },
     {
@@ -850,7 +864,7 @@
         ],
         "description": "25w18a是Java版1.21.6的第4个快照版，发布于2025年4月29日，更改了拴绳和失水恶魂的合成配方以及小恶魂的寻路机制，并修复了18个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w18a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w18a"
         }
     },
     {
@@ -861,7 +875,7 @@
         ],
         "description": "25w17a是Java版1.21.6的第3个快照版，发布于2025年4月22日，将定位栏正式加入到游戏中，并修复了28个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w17a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w17a"
         }
     },
     {
@@ -872,7 +886,7 @@
         ],
         "description": "25w16a是Java版1.21.6的第2个快照版，发布于2025年4月15日，更改了拴绳的机制，修复了45个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w16a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w16a"
         }
     },
     {
@@ -883,7 +897,7 @@
         ],
         "description": "25w15a是Java版1.21.6的首个快照版，发布于2025年4月8日，加入了追逐天空的部分内容，并修复了20个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w15a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w15a"
         }
     },
     {
@@ -897,7 +911,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/b88808bbb3da8d9f453694b5d8f74a3396f1a533/client.jar",
             "meta": "https://piston-meta.mojang.com/v1/packages/09fe09042d1767d677649d1e4a9d26ce3b462ebb/1.21.5.json",
             "server": "https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.5"
         }
     },
     {
@@ -908,7 +922,7 @@
         ],
         "description": "1.21.5-rc2是Java版1.21.5的第2个，也是最后一个发布候选版本，发布于2025年3月24日，修复了一些漏洞。修复了新区块不融入旧区块、活塞运动不对实体应用方块效果2个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.5"
         }
     },
     {
@@ -922,7 +936,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/0f3ed2e39938ccd178981f34f3f62ab7d08b399c/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/700837ec523b1c7ff921abab74896102c94047c5/25w14craftmine.json",
             "server": "https://piston-data.mojang.com/v1/objects/4527a9019e37e001770787e4523b505f79cac4c5/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w14craftmine"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w14craftmine"
         }
     },
     {
@@ -933,7 +947,7 @@
         ],
         "description": "1.21.5-rc1是Java版1.21.5的首个发布候选版本，发布于2025年3月20日，修复了一些漏洞。修复了聊天消息提示字符串不合逻辑、岩浆块渲染亮度错误、信标误受邻近方块投射阴影3个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.5"
         }
     },
     {
@@ -944,7 +958,7 @@
         ],
         "description": "1.21.5-pre3是Java版1.21.5的第3个，也是最后一个预发布版，发布于2025年3月18日，修复了一些漏洞。更改了寒带牛模型，存档崩溃报告新增玩家信息；修复了寒带牛纹理、火球字段无法修改、F3调试准星、经验球跟随旁观玩家4个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.5"
         }
     },
     {
@@ -955,7 +969,7 @@
         ],
         "description": "1.21.5-pre2是Java版1.21.5的第2个预发布版，发布于2025年3月12日，修复了一些漏洞。将数据包版本号更改为71；修复了夜晚天空渲染、Mesa兼容、打火石耐久、OpenGL错误、世界加载崩溃、渲染区段崩溃等7个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.5"
         }
     },
     {
@@ -966,7 +980,7 @@
         ],
         "description": "1.21.5-pre1是Java版1.21.5的首个预发布版，发布于2025年3月11日，修复了一些漏洞。命令SNBT格式恢复数字布尔值，资源包版本改为55，调整枯叶堆模型，优化网络聊天协议；修复了VRAM占用、渲染卡顿、刷怪蛋纹理、TNT爆炸规则等14个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.5"
         }
     },
     {
@@ -977,7 +991,7 @@
         ],
         "description": "25w10a是Java版1.21.5的第10个，也是最后一个快照版，发布于2025年3月5日。加入了tntExplodes游戏规则，更新主菜单全景图，为所有实体加入自定义数据字段；调整活塞音效、仙人掌花特性、SNBT格式，数据包版本改为70，资源包版本改为54；修复了26个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w10a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w10a"
         }
     },
     {
@@ -988,7 +1002,7 @@
         ],
         "description": "25w09b是Java版1.21.5的第9个快照版，发布于2025年2月27日。调整哞菇NBT数据格式；修复了文本不渲染、渲染崩溃、GUI错误、世界加载崩溃、保存崩溃等10个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w09b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w09b"
         }
     },
     {
@@ -999,7 +1013,7 @@
         ],
         "description": "25w09a是Java版1.21.5的第8个快照版，发布于2025年2月26日。加入倒下的树木与新地物类型；优化大量方块、生物、实体默认值与NBT格式，全面扩展SNBT语法；数据包版本改为69；修复了19个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w09a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w09a"
         }
     },
     {
@@ -1010,7 +1024,7 @@
         ],
         "description": "25w08a是Java版1.21.5的第7个快照版，发布于2025年2月19日。为狼加入7种音效变种，更新所有刷怪蛋纹理；调整枯叶堆着色、绵羊生成机制、创造模式物品栏；数据包版本改为68，资源包版本改为53；修复了4个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w08a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w08a"
         }
     },
     {
@@ -1021,7 +1035,7 @@
         ],
         "description": "25w07a是Java版1.21.5的第6个快照版，发布于2025年2月13日。移出部分村民交易平衡性调整，骆驼自然生成，绵羊毛色随生物群系生成；大量优化NBT/实体/方块数据格式，数据包版本改为67，资源包版本改为52；修复了24个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w07a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w07a"
         }
     },
     {
@@ -1032,7 +1046,7 @@
         ],
         "description": "25w06a是Java版1.21.5的第5个快照版，发布于2025年2月5日。加入了鸡的寒带/热带变种及对应鸡蛋，新增矮枯草丛、高枯草丛、仙人掌花方块；调整枯叶堆颜色、区块刻逻辑，数据包版本改为66，资源包版本改为51；修复了19个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w06a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w06a"
         }
     },
     {
@@ -1043,7 +1057,7 @@
         ],
         "description": "25w05a是Java版1.21.5的第4个快照版，发布于2025年1月28日。加入牛的热带/寒带变种、萤火虫灌木丛、灌木丛方块；优化沙漠环境音效与信标渲染，数据包版本改为65，资源包版本改为50；修复了22个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w05a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w05a"
         }
     },
     {
@@ -1054,7 +1068,7 @@
         ],
         "description": "25w04a是Java版1.21.5的第3个快照版，发布于2025年1月22日。新增数据包定义猫/青蛙变种功能，扩展物品格挡、损坏音效等堆叠组件，支持SNBT异构列表；数据包版本改为64，资源包版本改为49；修复了47个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w04a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w04a"
         }
     },
     {
@@ -1065,7 +1079,7 @@
         ],
         "description": "25w03a是Java版1.21.5的第2个快照版，发布于2025年1月15日。加入游戏测试系统、物品模型匹配组件功能，实现鞍装备化，新增生物变种组件，数据包版本改为63，资源包版本改为48，修复42个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w03a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w03a"
         }
     },
     {
@@ -1076,7 +1090,7 @@
         ],
         "description": "25w02a是Java版1.21.5的首个快照版，发布于2025年1月8日。加入猪的寒带/热带/温带变种、野花簇、枯叶堆方块，修改磁石合成配方，新增物品堆叠组件，数据包版本改为62，资源包版本改为47，修复80个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版25w02a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8825w02a"
         }
     },
     {
@@ -1087,7 +1101,7 @@
         ],
         "description": "1.21.4是苍园觉醒的正式版，也是Java版的一次小更新，发布于2024年12月3日。此次更新正式加入了苍白之园和嘎枝及一系列相关特性，并修复220个漏洞。此版本不兼容1.21到1.21.3的服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.4"
         }
     },
     {
@@ -1098,7 +1112,7 @@
         ],
         "description": "1.21.4-rc3是Java版1.21.4的第3个、也是最后一个发布候选版本，修复了一些漏洞，包含存档数据修复内容。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.4-rc3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.4-rc3"
         }
     },
     {
@@ -1109,7 +1123,7 @@
         ],
         "description": "1.21.4-rc2是Java版1.21.4的第2个发布候选版本，修复了一个严重漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.4-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.4-rc2"
         }
     },
     {
@@ -1120,7 +1134,7 @@
         ],
         "description": "1.21.4-rc1是Java版1.21.4的首个发布候选版本，加入了对波波洛卡语的支持并修复了漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.4-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.4-rc1"
         }
     },
     {
@@ -1131,7 +1145,7 @@
         ],
         "description": "1.21.4-pre3是Java版1.21.4的第3个、也是最后一个预发布版，修复了4个漏洞，包含一个导致崩溃的严重漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.4-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.4-pre3"
         }
     },
     {
@@ -1142,7 +1156,7 @@
         ],
         "description": "1.21.4-pre2是Java版1.21.4的第2个预发布版，调整了熔炉等方块实体数据与生物音效，修复了9个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.4-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.4-pre2"
         }
     },
     {
@@ -1153,7 +1167,7 @@
         ],
         "description": "1.21.4-pre1是Java版1.21.4的首个预发布版，调整了物品、生物与物品模型映射，修复了17个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.4-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.4-pre1"
         }
     },
     {
@@ -1164,7 +1178,7 @@
         ],
         "description": "24w46a是Java版1.21.4的第3个、也是最后一个快照版，加入物品使用动画与新标签，调整方块、物品与生物特性，修复了42个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w46a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w46a"
         }
     },
     {
@@ -1175,7 +1189,7 @@
         ],
         "description": "24w45a是Java版1.21.4的第2个快照版，加入新标签与物品模型格式，调整方块、物品与生物行为，修复了80个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w45a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w45a"
         }
     },
     {
@@ -1186,7 +1200,7 @@
         ],
         "description": "24w44a是Java版1.21.4的首个快照版，正式加入“冬季小更新”实验性内容，更换全景图，新增方块、物品与游戏机制，调整大量内容并修复123个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w44a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w44a"
         }
     },
     {
@@ -1200,7 +1214,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/6f67d19b4467240639cb2c368ffd4b94ba889705/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/1a5238463848865b057a167442ef88b4075f17cc/1.21.3.json",
             "server": "https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.3",
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.3",
             "minecraft": "https://www.minecraft.net/zh-hans/article/minecraft-java-edition-1-21-3"
         }
     },
@@ -1215,7 +1229,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/c7ac2d0d86f4ca416cab9064ff8a281852ad0c7b/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/4bbdf99e16b7c3e7ecec0902b997eec23a217998/1.21.2.json",
             "server": "https://piston-data.mojang.com/v1/objects/7bf95409b0d9b5388bfea3704ec92012d273c14c/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2"
         }
     },
     {
@@ -1226,7 +1240,7 @@
         ],
         "description": "1.21.2-rc2是Java版1.21.2 的第 2 个、也是最后一个发布候选版本，修复了载具地面标签、音效与方块更新等 4 个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2-rc2"
         }
     },
     {
@@ -1237,7 +1251,7 @@
         ],
         "description": "1.21.2-rc1是Java版1.21.2的首个发布候选版本，发布于2024年10月17日，修复了3个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2-rc1"
         }
     },
     {
@@ -1248,7 +1262,7 @@
         ],
         "description": "1.21.2-pre5是Java版1.21.2的第5个，也是最后一个预发布版，发布于2024年10月16日，修复了5个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2-pre5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2-pre5"
         }
     },
     {
@@ -1259,7 +1273,7 @@
         ],
         "description": "1.21.2-pre4是Java版1.21.2的第4个预发布版，发布于2024年10月15日，修复了9个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2-pre4"
         }
     },
     {
@@ -1270,7 +1284,7 @@
         ],
         "description": "1.21.2-pre3是Java版1.21.2的第3个预发布版，发布于2024年10月11日，修复了5个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2-pre3"
         }
     },
     {
@@ -1281,7 +1295,7 @@
         ],
         "description": "1.21.2-pre2是Java版1.21.2的第2个预发布版，发布于2024年10月10日，修复了38个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2-pre2"
         }
     },
     {
@@ -1292,7 +1306,7 @@
         ],
         "description": "1.21.2-pre1是Java版1.21.2的首个预发布版，发布于2024年10月8日，修复了26个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.2-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.2-pre1"
         }
     },
     {
@@ -1303,7 +1317,7 @@
         ],
         "description": "24w40a是Java版1.21.2的第8个，也是最后一个快照版，发布于2024年10月2日，加入了冬季小更新实验性内容，并修复了一些漏洞。此条目介绍的版本在特定条件下存在严重问题。燃烧的熔炉、高炉和烟熏炉会在重新加载后删除其中的内容物。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w40a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w40a"
         }
     },
     {
@@ -1314,7 +1328,7 @@
         ],
         "description": "24w39a是Java版1.21.2的第7个快照版，发布于2024年9月25日，将“收纳袋”实验性内容正式加入到游戏内，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w39a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w39a"
         }
     },
     {
@@ -1325,7 +1339,7 @@
         ],
         "description": "24w38a是Java版1.21.2的第6个快照版，发布于2024年9月18日，在实验性内容中加入了收纳袋的染色变种，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w38a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w38a"
         }
     },
     {
@@ -1336,7 +1350,7 @@
         ],
         "description": "24w37a是Java版1.21.2的第5个快照版，发布于2024年9月11日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w37a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w37a"
         }
     },
     {
@@ -1347,7 +1361,7 @@
         ],
         "description": "24w36a是Java版1.21.2的第4个快照版，发布于2024年9月4日，加入了新的物品堆叠组件、标签和模型格式以允许玩家自定义盔甲，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w36a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w36a"
         }
     },
     {
@@ -1358,7 +1372,7 @@
         ],
         "description": "24w35a是Java版1.21.2的第3个快照版，发布于2024年8月28日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w35a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w35a"
         }
     },
     {
@@ -1369,7 +1383,7 @@
         ],
         "description": "24w34a是Java版1.21.2的第2个快照版，发布于2024年8月21日，加入了3个新的物品堆叠组件，更改了矿车改进、红石电路优化相关的实验性内容，并修复了一些漏洞。此条目介绍的版本在特定条件下存在严重问题。在大部分情况下使用桶类物品都会导致铁桶被删除。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w34a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w34a"
         }
     },
     {
@@ -1380,7 +1394,7 @@
         ],
         "description": "24w33a是Java版1.21.2的首个快照版，发布于2024年8月15日，加入了关于矿车改进和红石电路优化的实验性内容，进一步完善了试炼密室结构和实验性收纳袋物品，数驱化了山羊角乐器，同步了部分基岩版特性，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w33a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w33a"
         }
     },
     {
@@ -1394,7 +1408,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/30c73b1c5da787909b2f73340419fdf13b9def88/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/94f420093e771cd1e72614184736b044c747a8df/1.21.1.json",
             "server": "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.1"
         }
     },
     {
@@ -1405,7 +1419,7 @@
         ],
         "description": "1.21.1的唯一一个发布候选版本，发布于2024年8月7日，加入了2种语言，并修复了2个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21.1-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21.1-rc1"
         }
     },
     {
@@ -1419,7 +1433,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/0e9a07b9bb3390602f977073aa12884a4ce12431/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/177e49d3233cb6eac42f0495c0a48e719870c2ae/1.21.json",
             "server": "https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21"
         }
     },
     {
@@ -1430,7 +1444,7 @@
         ],
         "description": "1.21的第4个，也是最后一个预发布版，发布于2024年6月7日，更改了爆炸保护和火焰保护魔咒的效果，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21-pre4"
         }
     },
     {
@@ -1441,7 +1455,7 @@
         ],
         "description": "1.21的第3个预发布版，发布于2024年6月5日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21-pre3"
         }
     },
     {
@@ -1452,7 +1466,7 @@
         ],
         "description": "1.21的第2个预发布版，发布于2024年5月31日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21-pre2"
         }
     },
     {
@@ -1463,7 +1477,7 @@
         ],
         "description": "1.21的首个预发布版，发布于2024年5月29日，加入了通过投掷末影珍珠或骑乘实体穿越传送门的功能，允许船被拴绳牵引，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.21-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.21-pre1"
         }
     },
     {
@@ -1474,7 +1488,7 @@
         ],
         "description": "24w21b是Java版1.21的第6个,也是最后一个快照版，发布于2024年5月22日，修复了1个严重漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w21b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w21b"
         }
     },
     {
@@ -1485,7 +1499,7 @@
         ],
         "description": "24w21a是Java版1.21的第5个快照版,发布于2024年5月22日，加入了新的游戏规则，实现了音乐唱片音乐的数据驱动，更改了生物惊慌机制和属性修饰符ID，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w21a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w21a"
         }
     },
     {
@@ -1496,7 +1510,7 @@
         ],
         "description": "24w20a是Java版1.21的第4个快照版,发布于2024年5月15日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w20a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w20a"
         }
     },
     {
@@ -1507,7 +1521,7 @@
         ],
         "description": "24w19b是Java版1.21的第3个快照版,发布于2024年5月10日，修复了一个崩溃漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w19b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w19b"
         }
     },
     {
@@ -1518,7 +1532,7 @@
         ],
         "description": "24w19a是Java版1.21的第2个快照版,发布于2024年5月10日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w19a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w19a"
         }
     },
     {
@@ -1529,7 +1543,7 @@
         ],
         "description": "24w18a是Java版1.21的首个快照版，发布于2024年5月3日，加入了20幅新的画、3张新的音乐唱片、9首新的音乐曲目和9种属性，使画的变种和魔咒由数据包驱动，将“1.21更新”实验性内容正式加入到游戏内，更换了全景图，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w18a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w18a"
         }
     },
     {
@@ -1543,7 +1557,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/05b6f1c6b46a29d6ea82b4e0d42190e42402030f/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/376f460c35740f490082af166f4464d5a8eeaf04/1.20.6.json",
             "server": "https://piston-data.mojang.com/v1/objects/145ff0858209bcfc164859ba735d4199aafa1eea/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.6"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.6"
         }
     },
     {
@@ -1557,7 +1571,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/df5327eb08ef460eb65477c00c0ef118cfa296bc/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/3ecc58bbbc2b680be6742747089cbbf3272526f9/1.20.6-rc1.json",
             "server": "https://piston-data.mojang.com/v1/objects/a9b9c22721ec3ac516627f30554f21ed7c23efe5/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.6-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.6-rc1"
         }
     },
     {
@@ -1571,7 +1585,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/c6b92b2374a629f20802bb284f98a4ee790e950a/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/156d304036b9aa7de4c0789cce7bf1095fda8d10/1.20.5.json",
             "server": "https://piston-data.mojang.com/v1/objects/79493072f65e17243fd36a699c9a96b4381feb91/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5"
         }
     },
     {
@@ -1582,7 +1596,7 @@
         ],
         "description": "1.20.5-rc3是Java版1.20.5的第3个，也是最后一个发布候选版本，发布于2024年4月22日，修复了1个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5-rc3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-rc3"
         }
     },
     {
@@ -1593,7 +1607,7 @@
         ],
         "description": "1.20.5-rc2是Java版1.20.5的第2个发布候选版本，发布于2024年4月19日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-rc2"
         }
     },
     {
@@ -1604,7 +1618,7 @@
         ],
         "description": "1.20.5-rc1是Java版1.20.5的首个发布候选版本，发布于2024年4月18日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-rc1"
         }
     },
     {
@@ -1615,7 +1629,7 @@
         ],
         "description": "1.20.5-pre4是Java版1.20.5的第4个，也是最后一个预发布版，发布于2024年4月17日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-pre4"
         }
     },
     {
@@ -1626,7 +1640,7 @@
         ],
         "description": "1.20.5-pre3是Java版1.20.5的第3个预发布版，发布于2024年4月16日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-pre3"
         }
     },
     {
@@ -1637,7 +1651,7 @@
         ],
         "description": "1.20.5-pre2是Java版1.20.5的第2个预发布版，发布于2024年4月15日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-pre2"
         }
     },
     {
@@ -1648,7 +1662,7 @@
         ],
         "description": "1.20.5-pre1是Java版1.20.5的首个预发布版，发布于2024年4月10日，加入了4个新进度，在内置实验性数据包中加入了1个新进度，更改了试炼密室的结构，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.5-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.5-pre1"
         }
     },
     {
@@ -1659,7 +1673,7 @@
         ],
         "description": "24w14a是Java版1.20.5的第15个，也是最后一个快照版，发布于2024年4月3日，启动游戏所需Java版本从17提升至21、所需操作系统从32位提升至64位，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w14a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w14a"
         }
     },
     {
@@ -1673,7 +1687,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/b3be1d7926319d4d58f3d8f25d648bf7d1e43970/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/21df7f4ba484a6437ab5e9dca0b4dfb5dcefc802/24w14potato.json",
             "server": "https://piston-data.mojang.com/v1/objects/2d29eee4f5a71f323d20b36d623e2ec21dab74f7/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w14potato"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w14potato"
         }
     },
     {
@@ -1684,7 +1698,7 @@
         ],
         "description": "24w13a是Java版1.20.5的第14个快照版，发布于2024年3月27日，加入了3种重锤专用的新魔咒和6种新的状态效果，在内置实验性数据包中加入了试炼刷怪笼和宝库的不祥方块状态变种、不祥之瓶、不祥试炼钥匙，更改了重锤的效果、试炼刷怪笼的行为、试炼刷怪笼和宝库的战利品表、试炼密室的结构和袭击触发机制，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w13a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w13a"
         }
     },
     {
@@ -1695,7 +1709,7 @@
         ],
         "description": "24w12a是Java版1.20.5的第13个快照版，发布于2024年3月20日，在内置实验性数据包中加入了试炼密室地图和7个新进度，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w12a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w12a"
         }
     },
     {
@@ -1706,7 +1720,7 @@
         ],
         "description": "24w11a是Java版1.20.5的第12个快照版，发布于2024年3月14日，加入了新的战利品表函数，在内置实验性数据包中加入了重锤、旋风棒、沉重核心、2种新的锻造模板和旗帜图案、3种新的陶片，修改了内置实验性数据包中试炼密室的结构及旋风人和宝库的战利品表，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w11a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w11a"
         }
     },
     {
@@ -1717,7 +1731,7 @@
         ],
         "description": "24w10a是Java版1.20.5的第11个快照版，发布于2024年3月6日，加入了狼的新变种和物品堆叠组件的简化格式，更新了物品栏槽位名称，让物品堆叠组件可在部分配方中生效，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w10a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w10a"
         }
     },
     {
@@ -1728,7 +1742,7 @@
         ],
         "description": "24w09a是Java版1.20.5的第10个快照版，发布于2024年2月28日，加入了狼铠和沼骸的新特性，重新设计了背景图，弃用了物品的NBT标签，优化了物品堆叠，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w09a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w09a"
         }
     },
     {
@@ -1739,7 +1753,7 @@
         ],
         "description": "24w05b是Java版1.20.5的第7个快照版，发布于2024年2月1日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w05b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w05b"
         }
     },
     {
@@ -1750,7 +1764,7 @@
         ],
         "description": "24w05a是Java版1.20.5的第6个快照版，发布于2024年1月31日，在内置实验性数据包中加入了宝库，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w05a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w05a"
         }
     },
     {
@@ -1761,7 +1775,7 @@
         ],
         "description": "24w04a是Java版1.20.5的第5个快照版，发布于2024年1月24日，加入了/transfer命令，更改了袋鼠和旋风人的行为，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w04a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w04a"
         }
     },
     {
@@ -1772,7 +1786,7 @@
         ],
         "description": "24w03b是Java版1.20.5的第4个快照版，发布于2024年1月18日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w03b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w03b"
         }
     },
     {
@@ -1783,7 +1797,7 @@
         ],
         "description": "24w03a是Java版1.20.5的第3个快照版，发布于2024年1月17日，更改了出生点区块的默认大小，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版24w03a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8824w03a"
         }
     },
     {
@@ -1794,7 +1808,7 @@
         ],
         "description": "23w51b是Java版1.20.5的第2个快照版，发布于2023年12月18日，修复了一个崩溃漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w51b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w51b"
         }
     },
     {
@@ -1805,7 +1819,7 @@
         ],
         "description": "23w51a是Java版1.20.5的首个快照版，发布于2023年12月18日，加入了袋鼠、旋风人和宝库，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w51a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w51a"
         }
     },
     {
@@ -1819,7 +1833,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/fd19469fed4a4b4c15b2d5133985f0e3e7816a8a/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/e462f7cb66825ebc4b22f83011a027212c41cc73/1.20.4.json",
             "server": "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.4"
         }
     },
     {
@@ -1833,7 +1847,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/a37e705152dd80f2912a624ab57791fd275316cb/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/62a1bad02381c54afd2958a67507f642ca4f84f2/1.20.4-rc1.json",
             "server": "https://piston-data.mojang.com/v1/objects/589a0babd82ff5a086e4085aa8a1dc46fecc222d/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.4-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.4-rc1"
         }
     },
     {
@@ -1858,7 +1872,7 @@
         ],
         "description": "1.20.3-rc1是Java版1.20.3的唯一一个发布候选版本，发布于2023年11月30日，修复了一个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.3-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.3-rc1"
         }
     },
     {
@@ -1869,7 +1883,7 @@
         ],
         "description": "1.20.3-pre4是Java版1.20.3的第4个，也是最后一个预发布版，发布于2023年11月28日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.3-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.3-pre4"
         }
     },
     {
@@ -1880,7 +1894,7 @@
         ],
         "description": "1.20.3-pre3是Java版1.20.3的第3个预发布版，发布于2023年11月27日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.3-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.3-pre3"
         }
     },
     {
@@ -1891,7 +1905,7 @@
         ],
         "description": "1.20.3-pre2是Java版1.20.3的第2个预发布版，发布于2023年11月22日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.3-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.3-pre2"
         }
     },
     {
@@ -1902,7 +1916,7 @@
         ],
         "description": "1.20.3-pre1是Java版1.20.3的首个预发布版，发布于2023年11月20日，更改了服务器资源包的处理机制，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.3-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.3-pre1"
         }
     },
     {
@@ -1913,7 +1927,7 @@
         ],
         "description": "23w46a是Java版1.20.3的第8个，也是最后一个快照版，发布于2023年11月16日，加入了记分板项目的显示名称和自定义文本显示，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w46a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w46a"
         }
     },
     {
@@ -1924,7 +1938,7 @@
         ],
         "description": "23w45a是Java版1.20.3的第7个快照版，发布于2023年11月8日，在内置实验性数据包中加入了试炼密室、试炼刷怪笼和旋风人，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w45a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w45a"
         }
     },
     {
@@ -1935,7 +1949,7 @@
         ],
         "description": "23w44a是Java版1.20.3的第6个快照版，发布于2023年11月1日，调整了一些命令，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w44a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w44a"
         }
     },
     {
@@ -1946,7 +1960,7 @@
         ],
         "description": "23w43b是Java版1.20.3的第5个快照版，发布于2023年10月27日，修复了一些崩溃漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w43b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w43b"
         }
     },
     {
@@ -1957,7 +1971,7 @@
         ],
         "description": "23w43a是Java版1.20.3的第4个快照版，发布于2023年10月25日，加入了/tick命令，更改了蝙蝠的外观，在内置数据包中加入了多种铜制方块和凝灰岩系列方块，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w43a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w43a"
         }
     },
     {
@@ -1968,7 +1982,7 @@
         ],
         "description": "23w42a是Java版1.20.3的第3个快照版，发布于2023年10月18日，加入了“1.21更新”内置数据包，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w42a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w42a"
         }
     },
     {
@@ -1979,7 +1993,7 @@
         ],
         "description": "23w41a是Java版1.20.3的第2个快照版，发布于2023年10月11日，为快照版、预发布和发布候选版本加入了Realms支持，加入了饰纹陶罐的新功能，重新加入了与函数有关的命令，改进了命令执行限制有关机制，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w41a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w41a"
         }
     },
     {
@@ -1990,7 +2004,7 @@
         ],
         "description": "23w40a是Java版1.20.3的首个快照版，发布于2023年10月4日，改进了盾牌，更改了聊天组件序列化，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w40a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w40a"
         }
     },
     {
@@ -2004,7 +2018,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/82d1974e75fc984c5ed4b038e764e50958ac61a0/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/b994a7ad16326530c7a67e1b700fcd6fb86e1497/1.20.2.json",
             "server": "https://piston-data.mojang.com/v1/objects/5b868151bd02b41319f54c8d4061b8cae84e665c/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2"
         }
     },
     {
@@ -2015,7 +2029,7 @@
         ],
         "description": "1.20.2-rc2是Java版1.20.2的第2个发布候选版本，发布于2023年9月18日，修复了一个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.2-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2-rc2"
         }
     },
     {
@@ -2026,7 +2040,7 @@
         ],
         "description": "1.20.2-rc1是Java版1.20.2的首个发布候选版本，发布于2023年9月15日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.2-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2-rc1"
         }
     },
     {
@@ -2037,7 +2051,7 @@
         ],
         "description": "1.20.2-pre4是Java版1.20.2的第4个，也是最后一个预发布版，发布于2023年9月13日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.2-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2-pre4"
         }
     },
     {
@@ -2048,7 +2062,7 @@
         ],
         "description": "1.20.2-pre3是Java版1.20.2的第3个预发布版，发布于2023年9月12日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.2-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2-pre3"
         }
     },
     {
@@ -2059,7 +2073,7 @@
         ],
         "description": "1.20.2-pre2是Java版1.20.2的第2个预发布版，发布于2023年9月7日，回退了上个版本对配方书搜索机制的更改，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.2-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2-pre2"
         }
     },
     {
@@ -2070,7 +2084,7 @@
         ],
         "description": "1.20.2-pre1是Java版1.20.2的首个预发布版，发布于2023年9月5日，更改了配方书的搜索机制，对实验性的村民交易进行了进一步更改，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.2-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.2-pre1"
         }
     },
     {
@@ -2081,7 +2095,7 @@
         ],
         "description": "23w35a是Java版1.20.2的第4个，也是最后一个快照版，发布于2023年8月30日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w35a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w35a"
         }
     },
     {
@@ -2092,7 +2106,7 @@
         ],
         "description": "23w33a是Java版1.20.2的第3个快照版，发布于2023年8月17日，加入了玩家皮肤和用户名举报系统，更改了生物攻击距离的计算方法，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w33a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w33a"
         }
     },
     {
@@ -2103,7 +2117,7 @@
         ],
         "description": "23w32a是Java版1.20.2的第2个快照版，发布于2023年8月9日，更改了振动机制，将数据包和资源包版本更改为17，更改了部分数据的存储方式，优化了网络协议，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w32a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w32a"
         }
     },
     {
@@ -2114,7 +2128,7 @@
         ],
         "description": "23w31a是Java版1.20.2的首个快照版，发布于2023年8月2日，加入了/random命令和“村民交易的平衡性调整”内置数据包，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w31a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w31a"
         }
     },
     {
@@ -2128,7 +2142,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/0c3ec587af28e5a785c0b4a7b8a30f9a8f78f838/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/715ccf3330885e75b205124f09f8712542cbe7e0/1.20.1.json",
             "server": "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.1"
         }
     },
     {
@@ -2142,7 +2156,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/7daaccba521899b14da6c60ed1ab01805bffeec7/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/483d6eb93bc1e2dea7db3c8447049e9733de2bf8/1.20.1-rc1.json",
             "server": "https://piston-data.mojang.com/v1/objects/6890ac51068a05e3fcc4158478247e5a5e47bcac/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20.1-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20.1-rc1"
         }
     },
     {
@@ -2156,7 +2170,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/e575a48efda46cf88111ba05b624ef90c520eef1/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/551f6170ebfacf374b13e26f66138dbeef9e9ad4/1.20.json",
             "server": "https://piston-data.mojang.com/v1/objects/15c777e2cfe0556eef19aab534b186c0c6f277e1/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20"
         }
     },
     {
@@ -2167,7 +2181,7 @@
         ],
         "description": "1.20-rc1是Java版1.20的唯一一个发布候选版本，发布于2023年5月31日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-rc1"
         }
     },
     {
@@ -2178,7 +2192,7 @@
         ],
         "description": "1.20-pre7是Java版1.20的第7个，也是最后一个预发布版，发布于2023年5月29日，加入了适用于world文件夹内符号链接的白名单机制，并修复了一个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-pre7"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre7"
         }
     },
     {
@@ -2189,7 +2203,7 @@
         ],
         "description": "1.20-pre6是Java版1.20的第6个预发布版，发布于2023年5月25日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-pre6"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre6"
         }
     },
     {
@@ -2200,7 +2214,7 @@
         ],
         "description": "1.20-pre5是Java版1.20的第5个预发布版，发布于2023年5月23日，将Unifont更新为15.0.03，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-pre5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre5"
         }
     },
     {
@@ -2211,7 +2225,7 @@
         ],
         "description": "1.20-pre4是Java版1.20的第4个预发布版，发布于2023年5月19日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre4"
         }
     },
     {
@@ -2222,7 +2236,7 @@
         ],
         "description": "1.20-pre3是Java版1.20的第3个预发布版，发布于2023年5月19日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre3"
         }
     },
     {
@@ -2233,7 +2247,7 @@
         ],
         "description": "1.20-pre2是Java版1.20的第2个预发布版，发布于2023年5月16日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre2"
         }
     },
     {
@@ -2244,7 +2258,7 @@
         ],
         "description": "1.20-pre1是Java版1.20的首个预发布版，发布于2023年5月10日，同步了一些基岩版的特性，加入了新的伤害类型，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.20-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.20-pre1"
         }
     },
     {
@@ -2255,7 +2269,7 @@
         ],
         "description": "23w18a是Java版1.20的第6个，也是最后一个快照版，发布于2023年5月3日，加入了一个新进度，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w18a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w18a"
         }
     },
     {
@@ -2266,7 +2280,7 @@
         ],
         "description": "23w17a是Java版1.20的第5个快照版，发布于2023年4月26日，加入了音乐唱片Relic、新的音乐曲目和新进度，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w17a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w17a"
         }
     },
     {
@@ -2277,7 +2291,7 @@
         ],
         "description": "23w16a是Java版1.20的第4个快照版，发布于2023年4月20日，丰富了古迹废墟的结构，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w16a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w16a"
         }
     },
     {
@@ -2288,7 +2302,7 @@
         ],
         "description": "23w14a是Java版1.20的第3个快照版，发布于2023年4月5日，更换了全景图与游戏徽标，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w14a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w14a"
         }
     },
     {
@@ -2302,7 +2316,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/8ebf103ef3c48ff40d4d002f44c5f7bc5d90e7e2/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/f7dc73624306a835e2e7274b198260d361dc2005/23w13a_or_b.json",
             "server": "https://piston-data.mojang.com/v1/objects/6241fc14ce7a659f371683a72aa24c155f60cce1/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w13a_or_b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w13a_or_b"
         }
     },
     {
@@ -2313,7 +2327,7 @@
         ],
         "description": "23w13a是Java版1.20的第2个快照版，发布于2023年3月29日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w13a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w13a"
         }
     },
     {
@@ -2324,7 +2338,7 @@
         ],
         "description": "23w12a是Java版1.20的首个快照版，发布于2023年3月22日，将“1.20更新”实验性内容正式加入到游戏内，加入了紫水晶块的共振功能、校频幽匿感测体、嗅探兽蛋、瓶子草以及5种新的锻造模板，考古特性方面则加入了可疑的沙砾、16种新的陶片和更多的考古地点，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w12a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w12a"
         }
     },
     {
@@ -2335,7 +2349,7 @@
         ],
         "description": "1.19.4是Java版的一次次要更新，发布于2023年3月14日，加入了展示实体、交互实体、/ride和/damage命令、新的菜单屏幕交互方式、创建新的世界屏幕的新设计、伤害类型和伤害类型标签，在内置实验性数据包中加入了锻造模板、嗅探兽、樱花树林和考古相关内容，并修复了一些漏洞。此版本不兼容1.19到1.19.3的服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4"
         }
     },
     {
@@ -2346,7 +2360,7 @@
         ],
         "description": "1.19.4-rc3是Java版1.19.4的第3个，也是最后一个发布候选版本，发布于2023年3月13日，修复了一个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4-rc3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-rc3"
         }
     },
     {
@@ -2357,7 +2371,7 @@
         ],
         "description": "1.19.4-rc2是Java版1.19.4的第2个发布候选版本，发布于2023年3月10日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-rc2"
         }
     },
     {
@@ -2368,7 +2382,7 @@
         ],
         "description": "1.19.4-rc1是Java版1.19.4的首个发布候选版本，发布于2023年3月9日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-rc1"
         }
     },
     {
@@ -2379,7 +2393,7 @@
         ],
         "description": "1.19.4-pre4是Java版1.19.4的第4个，也是最后一个预发布版，发布于2023年3月8日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-pre4"
         }
     },
     {
@@ -2390,7 +2404,7 @@
         ],
         "description": "1.19.4-pre3是Java版1.19.4的第3个预发布版，发布于2023年3月1日，更改了药水、药箭和对应粒子的颜色，加入了F3 + S转储动态纹理内容的功能，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-pre3"
         }
     },
     {
@@ -2401,7 +2415,7 @@
         ],
         "description": "1.19.4-pre2是Java版1.19.4的第2个预发布版，发布于2023年2月27日，更新了一些物品的模型并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-pre2"
         }
     },
     {
@@ -2412,7 +2426,7 @@
         ],
         "description": "1.19.4-pre1是Java版1.19.4的首个预发布版，发布于2023年2月22日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.4-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.4-pre1"
         }
     },
     {
@@ -2423,7 +2437,7 @@
         ],
         "description": "23w07a是Java版1.19.4的第5个，也是最后一个快照版，发布于2023年2月15日，在内置实验性数据包中加入了嗅探兽、樱花树林和考古学相关内容，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w07a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w07a"
         }
     },
     {
@@ -2434,7 +2448,7 @@
         ],
         "description": "23w06a是Java版1.19.4的第4个快照版，发布于2023年2月8日，加入了3种展示实体、/damage命令、伤害类型和伤害类型标签，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w06a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w06a"
         }
     },
     {
@@ -2445,7 +2459,7 @@
         ],
         "description": "23w05a是Java版1.19.4的第3个快照版，发布于2023年2月1日，重新设计了创建新的世界屏幕，使所有盔甲都可加上任意颜色的纹饰，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w05a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w05a"
         }
     },
     {
@@ -2456,7 +2470,7 @@
         ],
         "description": "23w04a是Java版1.19.4的第2个快照版，发布于2023年1月24日，在内置实验性数据包中加入了锻造模板，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w04a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w04a"
         }
     },
     {
@@ -2467,7 +2481,7 @@
         ],
         "description": "23w03a是Java版1.19.4的首个快照版，发布于2023年1月18日，加入了/ride命令和新的菜单屏幕交互方式，做了一些技术性更改，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版23w03a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8823w03a"
         }
     },
     {
@@ -2478,7 +2492,7 @@
         ],
         "description": "1.19.3是Java版的一次次要更新，发布于2022年12月7日，以内置数据包的形式分别加入了1.20的部分特性和收纳袋，重制了创造模式物品栏，更改了恼鬼的模型，为聊天举报加入了草稿功能，并修复了一些漏洞。此版本不兼容1.19到1.19.2的服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3"
         }
     },
     {
@@ -2489,7 +2503,7 @@
         ],
         "description": "1.19.3-rc3是Java版1.19.3的第3个，也是最后一个发布候选版本，发布于2022年12月6日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.3-rc3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3-rc3"
         }
     },
     {
@@ -2500,7 +2514,7 @@
         ],
         "description": "1.19.3-rc2是Java版1.19.3的第2个发布候选版本，发布于2022年12月5日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.3-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3-rc2"
         }
     },
     {
@@ -2511,7 +2525,7 @@
         ],
         "description": "1.19.3-rc1是Java版1.19.3的首个发布候选版本，发布于2022年12月1日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.3-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3-rc1"
         }
     },
     {
@@ -2522,7 +2536,7 @@
         ],
         "description": "1.19.3-pre3是Java版1.19.3的第3个，也是最后一个预发布版，发布于2022年11月29日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.3-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3-pre3"
         }
     },
     {
@@ -2533,7 +2547,7 @@
         ],
         "description": "1.19.3-pre2是Java版1.19.3的第2个预发布版，发布于2022年11月23日，修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.3-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3-pre2"
         }
     },
     {
@@ -2544,7 +2558,7 @@
         ],
         "description": "1.19.3-pre1是Java版1.19.3的首个预发布版，发布于2022年11月22日，加入了一些子谓词，放置在音符盒上的玩家头颅播放自定义音效的实验性功能和/fillbiome命令的新语法，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.3-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.3-pre1"
         }
     },
     {
@@ -2555,7 +2569,7 @@
         ],
         "description": "22w46a是Java版1.19.3的第5个，也是最后一个快照版，发布于2022年11月16日，加入了/fillbiome命令和“遥测数据”屏幕，在内置实验性数据包中加入了猪灵的头以及音符盒与头颅间的新交互方式，更改了遥测功能和纹理加载机制，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w46a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w46a"
         }
     },
     {
@@ -2566,7 +2580,7 @@
         ],
         "description": "22w45a是Java版1.19.3的第4个快照版，发布于2022年11月9日，在内置实验性数据包中加入了竹块和去皮竹块，为离线玩家加入了新的默认皮肤，更改了恼鬼的模型和纹理，对创造模式物品栏做了进一步调整，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w45a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w45a"
         }
     },
     {
@@ -2577,7 +2591,7 @@
         ],
         "description": "22w44a是Java版1.19.3的第3个快照版，发布于2022年11月2日，加入了几种生物的刷怪蛋，7条新游戏规则，对刷怪笼进行了更改，调整了创造模式物品栏，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w44a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w44a"
         }
     },
     {
@@ -2588,7 +2602,7 @@
         ],
         "description": "22w43a是Java版1.19.3的第2个快照版，发布于2022年10月26日，为聊天举报加入了草稿功能，对创造模式物品栏做了进一步更改，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w43a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w43a"
         }
     },
     {
@@ -2599,7 +2613,7 @@
         ],
         "description": "22w42a是Java版1.19.3的首个快照版，发布于2022年10月19日，以内置数据包的形式分别加入了1.20的部分特性和收纳袋，调整了创造模式物品栏的排序与分页，并修复了一些漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w42a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w42a"
         }
     },
     {
@@ -2610,7 +2624,7 @@
         ],
         "description": "1.19.2是Java版的一次次要更新，修复了2个严重漏洞，不兼容1.19服务端，兼容1.19.1服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.2"
         }
     },
     {
@@ -2621,7 +2635,7 @@
         ],
         "description": "1.19.2-rc1是Java版1.19.2的首个发布候选版，修复了玩家使用安全聊天时断开连接的漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.2-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.2-rc1"
         }
     },
     {
@@ -2632,7 +2646,7 @@
         ],
         "description": "1.19.2-rc2是Java版1.19.2的最后一个发布候选版，修复了社交屏幕中的崩溃漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.2-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.2-rc2"
         }
     },
     {
@@ -2643,7 +2657,7 @@
         ],
         "description": "1.19.1是Java版的一次次要更新，加入聊天举报功能和悦灵复制机制，修复若干漏洞，不兼容1.19服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1"
         }
     },
     {
@@ -2654,7 +2668,7 @@
         ],
         "description": "22w24a是Java版1.19.1的唯一一个快照版，加入悦灵复制方式与未完成的聊天举报功能，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w24a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w24a"
         }
     },
     {
@@ -2665,7 +2679,7 @@
         ],
         "description": "1.19.1-pre1是Java版1.19.1的首个预发布版，完善举报功能，延长悦灵复制冷却时间，修复20个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-pre1"
         }
     },
     {
@@ -2676,7 +2690,7 @@
         ],
         "description": "1.19.1-pre2是Java版1.19.1的第二个预发布版，加入聊天信任状态，enforce-secure-profile默认开启，修复7个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-pre2"
         }
     },
     {
@@ -2687,7 +2701,7 @@
         ],
         "description": "1.19.1-pre3是Java版1.19.1的第三个预发布版，加入纪念Technoblade的闪烁标语，调整聊天功能，修复7个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-pre3"
         }
     },
     {
@@ -2698,7 +2712,7 @@
         ],
         "description": "1.19.1-pre4是Java版1.19.1的第四个预发布版，调整聊天功能，支持验证消息顺序，修复2个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-pre4"
         }
     },
     {
@@ -2709,7 +2723,7 @@
         ],
         "description": "1.19.1-pre5是Java版1.19.1的第五个预发布版，加入聊天签署状态颜色标识，调整聊天预览与举报类型，修复11个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-pre5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-pre5"
         }
     },
     {
@@ -2720,7 +2734,7 @@
         ],
         "description": "1.19.1-pre6是Java版1.19.1的最后一个预发布版，调整幽匿催发体经验掉落，修改命令事件行为，修复12个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-pre6"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-pre6"
         }
     },
     {
@@ -2731,7 +2745,7 @@
         ],
         "description": "1.19.1-rc1是Java版1.19.1的首个发布候选版，修改部分聊天举报类型，修复9个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-rc1"
         }
     },
     {
@@ -2742,7 +2756,7 @@
         ],
         "description": "1.19.1-rc2是Java版1.19.1的第二个发布候选版，微调聊天与选项名称，修复5个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-rc2"
         }
     },
     {
@@ -2753,7 +2767,7 @@
         ],
         "description": "1.19.1-rc3是Java版1.19.1的最后一个发布候选版，限制聊天框字体步进宽度，修复1个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19.1-rc3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19.1-rc3"
         }
     },
     {
@@ -2764,7 +2778,7 @@
         ],
         "description": "1.19是荒野更新的首个正式版，加入深暗之域、红树林沼泽、远古城市、监守者、青蛙、蝌蚪、悦灵及大量新方块物品。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19"
         }
     },
     {
@@ -2773,7 +2787,7 @@
         "tags": ["实验性快照版"],
         "description": "1.19-exp1是Java版1.19的唯一一个实验性快照，加入深暗之域、幽匿系列方块、监守者、远古城市和迅捷潜行魔咒，单独发布且不出现在启动器版本列表中。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-exp1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-exp1"
         }
     },
     {
@@ -2782,7 +2796,7 @@
         "tags": ["快照版"],
         "description": "22w11a是Java版1.19的首个快照，加入青蛙、蝌蚪、红树与泥巴系列方块，继承实验性快照的幽匿方块与深暗之域，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w11a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w11a"
         }
     },
     {
@@ -2791,7 +2805,7 @@
         "tags": ["快照版"],
         "description": "22w12a是Java版1.19的第2个快照，加入运输船，继承监守者、黑暗效果与迅捷潜行魔咒，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w12a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w12a"
         }
     },
     {
@@ -2800,7 +2814,7 @@
         "tags": ["快照版"],
         "description": "22w13a是Java版1.19的第3个快照，加入悦灵与3个新进度，继承远古城市与强化深板岩，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w13a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w13a"
         }
     },
     {
@@ -2809,7 +2823,7 @@
         "tags": ["快照版"],
         "description": "22w14a是Java版1.19的第4个快照，加入红树林沼泽、回响碎片、追溯指针与黏土可再生途径，修复远古城市与监守者相关漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w14a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w14a"
         }
     },
     {
@@ -2818,7 +2832,7 @@
         "tags": ["快照版"],
         "description": "22w15a是Java版1.19的第5个快照，加入监守者远程攻击与2个新进度，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w15a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w15a"
         }
     },
     {
@@ -2827,7 +2841,7 @@
         "tags": ["快照版"],
         "description": "22w16a是Java版1.19的第6个快照，加入唱片残片、音乐唱片5、新曲目与游戏规则，调整悦灵行为，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w16a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w16a"
         }
     },
     {
@@ -2836,7 +2850,7 @@
         "tags": ["快照版"],
         "description": "22w16b是Java版1.19的第7个快照，修复一个导致游戏崩溃的漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w16b"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w16b"
         }
     },
     {
@@ -2845,7 +2859,7 @@
         "tags": ["快照版"],
         "description": "22w17a是Java版1.19的第8个快照，从基岩版加入山羊角，调整悦灵与监守者特性，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w17a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w17a"
         }
     },
     {
@@ -2854,7 +2868,7 @@
         "tags": ["快照版"],
         "description": "22w18a是Java版1.19的第9个快照，加入/place命令，调整悦灵行为，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w18a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w18a"
         }
     },
     {
@@ -2863,7 +2877,7 @@
         "tags": ["快照版"],
         "description": "22w19a是Java版1.19的最后一个快照，加入聊天预览与相关选项，合并/locate与/locatebiome命令，增强/locate和/place功能，修复若干漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w19a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w19a"
         }
     },
     {
@@ -2872,7 +2886,7 @@
         "tags": ["预发布版"],
         "description": "1.19-pre1是Java版1.19的首个预发布版，调整幽匿感测体、生物生成、世界生成、命令与聊天等内容，修复48个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-pre1"
         }
     },
     {
@@ -2881,7 +2895,7 @@
         "tags": ["预发布版"],
         "description": "1.19-pre2是Java版1.19的第2个预发布版，新增生物群系标签，调整幽匿感测体、山羊角、监守者行为与进度，修复60个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-pre2"
         }
     },
     {
@@ -2890,7 +2904,7 @@
         "tags": ["预发布版"],
         "description": "1.19-pre3是Java版1.19的第3个预发布版，调整幽匿感测体、青蛙生成、监守者远程攻击与物品展示框，修复18个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-pre3"
         }
     },
     {
@@ -2899,7 +2913,7 @@
         "tags": ["预发布版"],
         "description": "1.19-pre4是Java版1.19的第4个预发布版，加入马来语（爪夷文），修复7个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-pre4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-pre4"
         }
     },
     {
@@ -2908,7 +2922,7 @@
         "tags": ["预发布版"],
         "description": "1.19-pre5是Java版1.19的最后一个预发布版，修复12个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-pre5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-pre5"
         }
     },
     {
@@ -2917,7 +2931,7 @@
         "tags": ["发布候选版"],
         "description": "1.19-rc1是Java版1.19的首个发布候选版，修复一个与黑暗效果相关的漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-rc1"
         }
     },
     {
@@ -2926,7 +2940,7 @@
         "tags": ["发布候选版"],
         "description": "1.19-rc2是Java版1.19的最后一个发布候选版，修复3个与崩溃相关的漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.19-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.19-rc2"
         }
     },
     {
@@ -2935,7 +2949,7 @@
         "tags": ["正式版"],
         "description": "1.18.2是Java版的一次次要更新，加入/placefeature命令，大幅改动标签与自定义世界生成，修复若干漏洞，不兼容1.18与1.18.1服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.2"
         }
     },
     {
@@ -2944,7 +2958,7 @@
         "tags": ["快照版"],
         "description": "22w03a是Java版1.18.2的首个快照，加入/placefeature命令与弗留利语，调整世界生成、日志与标签，修复51个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w03a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w03a"
         }
     },
     {
@@ -2953,7 +2967,7 @@
         "tags": ["快照版"],
         "description": "22w05a是Java版1.18.2的第2个快照，回退恶地生成改动，调整超平坦预设与标签，修复25个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w05a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w05a"
         }
     },
     {
@@ -2962,7 +2976,7 @@
         "tags": ["快照版"],
         "description": "22w06a是Java版1.18.2的第3个快照，新增韩国玩家合规计时器，支持全注册表类型标签，修改自定义世界生成与超平坦预设，修复10个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w06a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w06a"
         }
     },
     {
@@ -2971,7 +2985,7 @@
         "tags": ["快照版"],
         "description": "22w07a是Java版1.18.2的最后一个快照，新增大量生物群系标签，调整调试屏幕与标签内容，修复11个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w07a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w07a"
         }
     },
     {
@@ -2980,7 +2994,7 @@
         "tags": ["预发布版"],
         "description": "1.18.2-pre1是Java版1.18.2的首个预发布版，新增结构标签，增强/locate与/locatebiome对标签的支持，升级数据包版本，修复14个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.2-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.2-pre1"
         }
     },
     {
@@ -2989,7 +3003,7 @@
         "tags": ["预发布版"],
         "description": "1.18.2-pre2是Java版1.18.2的第2个预发布版，加入样条密度函数，修复7个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.2-pre2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.2-pre2"
         }
     },
     {
@@ -2998,7 +3012,7 @@
         "tags": ["预发布版"],
         "description": "1.18.2-pre3是Java版1.18.2的最后一个预发布版，修复9个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.2-pre3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.2-pre3"
         }
     },
     {
@@ -3007,7 +3021,7 @@
         "tags": ["发布候选版"],
         "description": "1.18.2-rc1是Java版1.18.2的唯一一个发布候选版，修复3个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.2-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.2-rc1"
         }
     },
     {
@@ -3016,7 +3030,7 @@
         "tags": ["正式版"],
         "description": "1.18.1是Java版的一次次要更新，调整迷雾表现，修复包括Log4j2远程代码执行在内的漏洞，兼容1.18服务端。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.1"
         }
     },
     {
@@ -3025,7 +3039,7 @@
         "tags": ["预发布版"],
         "description": "1.18.1-pre1是Java版1.18.1的唯一一个预发布版，更改迷雾显示形式，修复4个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.1-pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.1-pre1"
         }
     },
     {
@@ -3034,7 +3048,7 @@
         "tags": ["发布候选版"],
         "description": "1.18.1-rc1是Java版1.18.1的首个发布候选版，修复4个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.1-rc1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.1-rc1"
         }
     },
     {
@@ -3043,7 +3057,7 @@
         "tags": ["发布候选版"],
         "description": "1.18.1-rc2是Java版1.18.1的第2个发布候选版，修复1个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.1-rc2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.1-rc2"
         }
     },
     {
@@ -3052,7 +3066,7 @@
         "tags": ["发布候选版"],
         "description": "1.18.1-rc3是Java版1.18.1的最后一个发布候选版，修复Log4j2严重安全漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18.1-rc3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18.1-rc3"
         }
     },
     {
@@ -3061,7 +3075,7 @@
         "tags": ["正式版"],
         "description": "1.18是洞穴与山崖第二部分正式版，重制主世界生成机制，加入更大洞穴、更高山脉与新生物群系。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18"
         }
     },
     {
@@ -3070,7 +3084,7 @@
         "tags": ["实验性快照版"],
         "description": "1.18-exp1是Java版1.18首个实验性快照，加入全新地形生成、多种山地生物群系、矿脉与噪声洞穴，提升世界高度至Y=-64~319，单独发布不显示在启动器列表。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18-exp1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp1"
         }
     },
     {
@@ -3079,7 +3093,7 @@
         "tags": ["实验性快照版"],
         "description": "1.18-exp2是Java版1.18第2个实验性快照，调整主世界地形与生物群系生成，修改刷怪笼光照限制，提升云高度，单独发布不显示在启动器列表。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18-exp2"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp2"
         }
     },
     {
@@ -3088,7 +3102,7 @@
         "tags": ["实验性快照版"],
         "description": "1.18-exp3是Java版1.18第3个实验性快照，新增裸岩山峰生物群系，调整生物群系分布与地形生成，修复山羊生成与敌对生物数量异常问题，单独发布不显示在启动器列表。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18-exp3"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp3"
         }
     },
     {
@@ -3097,7 +3111,7 @@
         "tags": ["实验性快照版"],
         "description": "1.18-exp4是Java版1.18第4个实验性快照，调整生物群系分布、岩石生成与矿石分布，优化河流与神殿生成，单独发布不显示在启动器列表。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18-exp4"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp4"
         }
     },
     {
@@ -3106,7 +3120,7 @@
         "tags": ["实验性快照版"],
         "description": "1.18-exp5是Java版1.18第5个实验性快照，调整生物生成速度、山脉与沼泽生成，修复化石矿石错误与地形平坦化问题，单独发布不显示在启动器列表。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18-exp5"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp5"
         }
     },
     {
@@ -3115,7 +3129,7 @@
         "tags": ["实验性快照版"],
         "description": "1.18-exp6是Java版1.18第6个实验性快照，优化含水层与水下峡谷生成，调整生物跟随行为，修复繁茂洞穴生成问题，单独发布不显示在启动器列表。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18-exp6"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp6"
         }
     },
     {
@@ -3124,7 +3138,7 @@
         "tags": ["实验性快照版"],
         "description": "1.18-exp7是Java版1.18最后一个实验性快照，调整鞘翅耐久与飞行速度，优化面条洞穴生成范围与地形平滑度，单独发布不显示在启动器列表。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.18-exp7"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.18-exp7"
         }
     },
     {
@@ -3133,7 +3147,7 @@
         "tags": ["快照版"],
         "description": "21w37a是Java版1.18首个快照，整合实验性快照特性，新增illageralt字体、JFR分析、多项设置选项，修改数据包与协议，修复70个漏洞，不支持旧版存档。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w37a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w37a"
         }
     },
     {
@@ -3142,7 +3156,7 @@
         "tags": ["快照版"],
         "description": "21w38a是Java版1.18第2个快照，新增模拟距离选项、两种语言与匿名反馈，优化矿石生成与后台线程，修复22个漏洞，不支持旧版存档。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w38a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w38a"
         }
     },
     {
@@ -3151,7 +3165,7 @@
         "tags": ["快照版"],
         "description": "21w39a是Java版1.18第3个快照，新增4个进度与触发器，调整生物生成与世界生成，重设计状态效果显示，修复14个漏洞，恢复旧版存档支持。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w39a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w39a"
         }
     },
     {
@@ -3160,7 +3174,7 @@
         "tags": ["快照版"],
         "description": "21w40a是Java版1.18第4个快照，移除并重命名大量生物群系，调整矿石分布与生物生成，修改进度条件，修复48个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w40a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w40a"
         }
     },
     {
@@ -3169,7 +3183,7 @@
         "tags": ["快照版"],
         "description": "21w41a是Java版1.18第5个快照，调整多项纹理与世界生成，更换菜单背景，优化区块渲染，修复21个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w41a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w41a"
         }
     },
     {
@@ -3178,7 +3192,7 @@
         "tags": ["快照版"],
         "description": "21w42a是Java版1.18第6个快照，新增音乐唱片otherside与8首背景音乐，加入自动保存指示器与新粒子，重设计出生点算法，修复15个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w42a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w42a"
         }
     },
     {
@@ -3187,7 +3201,7 @@
         "tags": ["快照版"],
         "description": "21w43a是Java版1.18第7个快照，优化旧世界升级融合，修改区块存储格式，重命名视频设置选项，移除暖水深海，修复11个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w43a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w43a"
         }
     },
     {
@@ -3196,7 +3210,7 @@
         "tags": ["快照版"],
         "description": "21w44a是Java版1.18最后一个快照，完善旧世界升级，新增在线选项与生物生成标签，更新进度条件，优化模拟距离与实体碰撞，修复28个漏洞。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版21w44a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8821w44a"
         }
     },
     {
@@ -3214,7 +3228,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/6548ac25265c2726a2cd24dec3820c07ee2b0b4b/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/39e7d52d0e8f191096d6b7c2753fd7813f3d3efd/22w13oneblockatatime.json",
             "server": "https://piston-data.mojang.com/v1/objects/5f48eea55c7fd1881d9c63835b15dfb5bbcd3a67/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版22w13oneBlockAtATime"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8822w13oneBlockAtATime"
         }
     },
     {
@@ -3232,7 +3246,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/cc5cb23748614a6396ffb77427b4f11f4b6ae99b/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/c72805a04a8e08cd5d773230293dc88ccf2e5f4e/20w14infinite.json",
             "server": "https://piston-data.mojang.com/v1/objects/c0711cd9608d1af3d6f05ac423dd8f4199780225/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版20w14∞"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8820w14∞"
         }
     },
     {
@@ -3268,7 +3282,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/3843fae71dd283e68897ead618255fa1ddcf4c8d/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/3c1973d91e234fa30eb12be0dce7587b0b3c75bd/1.RV-Pre1.json",
             "server": "https://piston-data.mojang.com/v1/objects/f51d9489706f603be6be9716407f1dab5f7f2733/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版1.RV-Pre1"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%881.RV-Pre1"
         }
     },
     {
@@ -3286,7 +3300,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/1bea9340956b96f2b5452aa576e0cf460990efc6/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/18fff5c4aaa556b97a66d6651cbf6a3484ac97e4/15w14a.json",
             "server": "https://piston-data.mojang.com/v1/objects/f7d2bd26ce7893477fc1ca6e27b671345253bae4/server.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版15w14a"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%8815w14a"
         }
     },
     {
@@ -3301,7 +3315,7 @@
         ],
         "description": "2.0是一个愚人节玩笑版本，发布于2013年4月1日。该版本基于Java版1.5.1开发。",
         "downloads": {
-            "wiki": "https://zh.minecraft.wiki/w/Java版2.0"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%882.0"
         }
     },
     {
@@ -3320,7 +3334,7 @@
             "client": "https://piston-data.mojang.com/v1/objects/93faf3398ebf8008d59852dc3c2b22b909ca8a49/client.jar",
             "json": "https://piston-meta.mojang.com/v1/packages/5be70efae7eea5f18ce164fb264eaa9563a054ee/b1.0.json",
             "server": "https://vault.omniarchive.uk/archive/java/server-beta/b1.0/b1.0.jar",
-            "wiki": "https://zh.minecraft.wiki/w/Java版Beta_1.0"
+            "wiki": "https://zh.minecraft.wiki/w/Java%E7%89%88Beta_1.0"
         }
     },
     {
