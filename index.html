@@ -2,23 +2,32 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Minecraft 版本列表 - 浏览所有正式版、快照版、远古版本等，支持搜索、筛选和分页">
     <title>Minecraft 版本列表</title>
     <link rel="stylesheet" href="style.css">
+    <!-- 预连接加速字体资源（可选） -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
     <header>
         <h1>Minecraft 版本列表</h1>
     </header>
+
+    <!-- 搜索区域（玻璃卡片风格） -->
     <div class="search-container">
-            <input type="text" id="search-input" placeholder="搜索版本名称或描述...">
-            <button id="search-button">搜索</button>
+        <input type="text" id="search-input" placeholder="搜索版本名称或类型... 例如：1.20 或 release">
+        <button id="search-button" aria-label="搜索">搜索</button>
     </div>
+
+    <!-- 标签筛选区域 -->
     <div class="filter-container">
         <h2>标签筛选</h2>
         <div id="tags-container" class="tags-container"></div>
     </div>
-        <!-- 分页控件（上方） -->
+
+    <!-- 顶部分页控件 -->
     <div class="pagination-container" id="pagination-top">
         <div class="pagination-controls">
             <div class="page-size-selector">
@@ -26,9 +35,9 @@
                 <select id="page-size">
                     <option value="5">5</option>
                     <option value="10">10</option>
-                    <option value="10">15</option>
+                    <option value="15">15</option>
                     <option value="20">20</option>
-                    <option value="10">25</option>
+                    <option value="25">25</option>
                     <option value="50" selected>50</option>
                     <option value="75">75</option>
                     <option value="100">100</option>
@@ -36,12 +45,13 @@
                 </select>
             </div>
             <div class="pagination-buttons">
-                <button class="prev-page pagination-btn" disabled>上一页</button>
-                <span class="page-info">第 1 页，共 1 页</span>
-                <button class="next-page pagination-btn" disabled>下一页</button>
+                <button class="prev-page pagination-btn" disabled aria-label="上一页">上一页</button>
+                <span class="page-info" id="page-info-top">第 1 页，共 1 页</span>
+                <button class="next-page pagination-btn" disabled aria-label="下一页">下一页</button>
             </div>
         </div>
     </div>
+
     <main>
         <table id="versions-container" class="versions-table">
             <thead>
@@ -52,11 +62,13 @@
                     <th>相关链接</th>
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
+                <!-- 动态生成的版本数据将显示在此处 -->
+            </tbody>
         </table>
     </main>
-    
-    <!-- 分页控件（下方） -->
+
+    <!-- 底部分页控件（结构与顶部完全一致，JS会自动同步状态） -->
     <div class="pagination-container" id="pagination-bottom">
         <div class="pagination-controls">
             <div class="page-size-selector">
@@ -64,27 +76,27 @@
                 <select id="page-size-bottom">
                     <option value="5">5</option>
                     <option value="10">10</option>
-                    <option value="10">15</option>
+                    <option value="15">15</option>
                     <option value="20">20</option>
-                    <option value="10">25</option>
-                    <option value="50">50</option>
+                    <option value="25">25</option>
+                    <option value="50" selected>50</option>
                     <option value="75">75</option>
                     <option value="100">100</option>
                     <option value="200">200</option>
                 </select>
             </div>
             <div class="pagination-buttons">
-                <button class="prev-page pagination-btn" disabled>上一页</button>
-                <span class="page-info">第 1 页，共 1 页</span>
-                <button class="next-page pagination-btn" disabled>下一页</button>
+                <button class="prev-page pagination-btn" disabled aria-label="上一页">上一页</button>
+                <span class="page-info" id="page-info-bottom">第 1 页，共 1 页</span>
+                <button class="next-page pagination-btn" disabled aria-label="下一页">下一页</button>
             </div>
         </div>
     </div>
-    
+
     <footer>
-        <p>© 2024~2026 EndlessPixel Studio</p>
+        <p>© 2024~2026 EndlessPixel Studio · 数据来源于 Mojang 官方版本清单</p>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
