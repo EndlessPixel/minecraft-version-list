@@ -25,6 +25,18 @@ let currentPage = 1;
 let pageSize = 50;
 let filteredVersions = [];
 
+// 类型映射
+const TYPE_MAP = {
+  'release': '正式版',
+  'old_alpha': '远古版',
+  'old_beta': 'Beta',
+  'snapshot': '快照版',
+  'pending': '预发布版',
+  'candidate': '发布候选版',
+  'experiment': '实验性快照版',
+  'April Fools': '愚人节版'
+};
+
 // 标签分组配置
 const TAG_GROUPS = {
   main: ['正式版', '发布候选版', '预发布版', '快照版', '实验性快照版', '愚人节版'],
@@ -106,20 +118,37 @@ let pagination;
 // 初始化
 async function init() {
     try {
-        const response = await fetch('versions.json');
-        minecraftVersions = await response.json();
+        const response = await fetch('https://piston-meta.mojang.com/mc/game/version_manifest.json');
+        const manifest = await response.json();
+        minecraftVersions = parseManifest(manifest);
         
         loadUrlParams();
         filterVersions(false);
         renderTags();
-        bindEvents();
         pagination = new Pagination();
         renderVersions();
     } catch (error) {
         console.error('加载版本数据失败:', error);
         const tbody = versionsContainer?.querySelector('tbody');
-        if (tbody) tbody.innerHTML = '<tr><td colspan="5">加载失败</td></tr>';
+        if (tbody) tbody.innerHTML = '<tr><td colspan="4">加载失败，请检查网络连接</td></tr>';
     }
+}
+
+// 解析 manifest 数据
+function parseManifest(manifest) {
+    return manifest.versions.map(v => ({
+        name: v.id,
+        date: formatDate(v.releaseTime),
+        type: v.type,
+        tags: [TYPE_MAP[v.type] || v.type]
+    }));
+}
+
+// 格式化日期
+function formatDate(dateString) {
+    if (!dateString) return '-';
+    const date = new Date(dateString);
+    return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
 }
 
 // 加载URL参数
@@ -201,14 +230,12 @@ function updateAndRender() {
   renderVersions();
 }
 
-// 过滤版本（彻底移除“跳过”）
+// 过滤版本
 function filterVersions(resetPage = true) {
     filteredVersions = minecraftVersions.filter(version => {
-        if (version.name === "跳过") return false;
-        
         const matchTags = currentFilters.length === 0 || (version.tags && currentFilters.every(t => version.tags.includes(t)));
         const kw = currentSearch.toLowerCase().trim();
-        const matchSearch = !kw || (version.name || "").toLowerCase().includes(kw) || (version.description || "").toLowerCase().includes(kw);
+        const matchSearch = !kw || (version.name || "").toLowerCase().includes(kw) || (version.type || "").toLowerCase().includes(kw);
         return matchTags && matchSearch;
     });
     if (resetPage) currentPage = 1;
@@ -224,7 +251,7 @@ function renderVersions() {
     tbody.innerHTML = '';
 
     if (filteredVersions.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="5">无数据</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4">无数据</td></tr>';
         pagination?.update();
         return;
     }
@@ -236,56 +263,17 @@ function renderVersions() {
     pagination?.update();
 }
 
-// 创建行（移除跳过逻辑）
+// 创建行
 function createVersionRow(version) {
     const row = document.createElement('tr');
-    const desc = (version.description || '').length > 30 ? (version.description.substring(0,30)+"...") : (version.description || '');
+    const wikiUrl = `https://zh.minecraft.wiki/w/Java版${encodeURIComponent(version.name)}`;
     row.innerHTML = `
         <td><strong>${version.name}</strong></td>
         <td>${version.date || '-'}</td>
-        <td><span>${desc}</span> <button class="description-btn">详情</button></td>
         <td>${(version.tags || []).map(t=>`<span class="version-tag">${t}</span>`).join('')}</td>
-        <td><button class="download-btn">查看</button></td>
+        <td><a href="${wikiUrl}" target="_blank" class="download-btn">Wiki</a></td>
     `;
-    row.querySelector('.download-btn').onclick = () => openDownloadModal(version);
-    row.querySelector('.description-btn').onclick = () => openDescriptionModal(version);
     return row;
-}
-
-// 弹窗
-const downloadModal = document.getElementById('download-modal');
-const descriptionModal = document.getElementById('description-modal');
-
-function openDownloadModal(v) { 
-    document.getElementById('modal-body').innerHTML = v.downloads 
-        ? Object.entries(v.downloads).map(([key, url]) => {
-            // 自动把 key 翻译成中文名称
-            const nameMap = {
-                client: "客户端",
-                server: "服务端",
-                json: "JSON文件",
-                wiki: "Wiki 页面",
-                minecraft: "官方文章"
-            };
-            const name = nameMap[key] || key;
-            return `<a href="${url}" target="_blank" class="download-link">${name}</a>`;
-        }).join('') 
-        : "无链接"; 
-    downloadModal.classList.add('active'); 
-}
-function openDescriptionModal(v) { 
-    document.getElementById('description-modal-body').textContent = v.description || "无描述"; 
-    descriptionModal.classList.add('active'); 
-}
-function closeDownloadModal() { downloadModal.classList.remove('active'); }
-function closeDescriptionModalFunc() { descriptionModal.classList.remove('active'); }
-
-// 绑定事件
-function bindEvents() {
-    searchButton?.addEventListener('click', performSearch);
-    searchInput?.addEventListener('keypress', e=>e.key==='Enter'&&performSearch());
-    document.getElementById('close-modal')?.addEventListener('click', closeDownloadModal);
-    document.getElementById('close-description-modal')?.addEventListener('click', closeDescriptionModalFunc);
 }
 
 function performSearch() {
